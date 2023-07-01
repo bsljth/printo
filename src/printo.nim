@@ -1,7 +1,14 @@
-# This is just an example to get you started. A typical library package
-# exports the main API in this file. Note that you cannot rename this file
-# but you can remove it if you wish.
+proc printo*(text: string, mode: string, timeMS: uint) =
+  if mode == "wbwsl":
+    wbwsl(text, timeMS)
+  elif mode == "lblsl":
+    lblsl(text, timeMS)
+  elif mode == "wbwnl":
+    wbwnl(text, timeMS)
+  elif mode == "lblnl":
+    lblnl(text, timeMS)
 
-proc add*(x, y: int): int =
-  ## Adds two files together.
-  return x + y
+proc wbwsl(text: string, timeMS: uint) =
+proc lblsl(text: string, timeMS: uint) =
+proc wbwnl(text: string, timeMS: uint) =
+proc lblnl(text: string, timeMS: uint) =

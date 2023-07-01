@@ -7,6 +7,7 @@
 
 import unittest
 
-import printo
-test "can add":
-  check add(5, 5) == 10
+from printo import printo
+
+#[ check printo("test") ]#
+
