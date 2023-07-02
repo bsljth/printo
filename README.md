@@ -18,6 +18,7 @@ The `printo` proc only requires three arguments to work:
 ### Modes
 Currently, printo supports four modes of printing. They are detailed in the following table:
 
-|    Mode    |    Description                    |
-|------------|-----------------------------------|
-|  wbwnl     | Word by word printing on same line|
+|    Mode    |    Description                                                   |
+|------------|------------------------------------------------------------------|
+|  wbwsl     | This mode enables you to print text word by word on the same line|
+|  
