@@ -27,7 +27,14 @@ Currently, printo supports four modes of printing. They are detailed in the foll
 |  wbwnl     | Print text word by word on a new line per word.                       |
 
 ### Usage
-Using `printo` in your project is quite easy. There is only one proc that you actually use: `printo`. Just import that proc and you are good to go. The actual usage is as follows:
+#### Installation
+Since `printo` has not yet been added to the `nimble` directory, you'll have to install it from the repository.
+
+```
+$ nimble install https://bitbucket.org/pyfyclan/printo.git
+```
+
+Then, using `printo` in your project is quite easy. There is only one proc that you actually use: `printo`. Just import that proc and you are good to go. The actual usage is as follows:
 
 ```
 from printo import printo
