@@ -19,7 +19,21 @@ The `printo` proc only requires three arguments to work:
 ### Modes
 Currently, printo supports four modes of printing. They are detailed in the following table:
 
-|    Mode    |    Description                                                   |
-|------------|------------------------------------------------------------------|
-|  lblsl     | This mode enables you to print text letter by letter on the same line|
-|  
+|    Mode    |    Description                                                        |
+|------------|-----------------------------------------------------------------------|
+|  lblsl     | Print text letter by letter on the same line.                         |
+|  wbwsl     | Print text word by word on the same line.                             |
+|  lblnl     | Print text letter by letter on a new line per letter.                 |
+|  wbwnl     | Print text word by word on a new line per word.                       |
+
+### Usage
+Using `printo` in your project is quite easy. There is only one proc that you actually use: `printo`. Just import that proc and you are good to go. The actual usage is as follows:
+
+```
+from printo import printo
+
+let txt: string = "Lorem ipsum whatever you got."
+let mode = "lblsl"
+let time = 100  # remember that this value is in milliseconds
+proc(txt, mode, time)
+```
