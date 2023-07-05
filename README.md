@@ -4,11 +4,18 @@
 
 However, since `printo` is a simple library that uses only basic Nim constructs, applications written in earlier versions of Nim should also be able to use it seamlessly.
 
-### How to use printo
-Using `printo` in your project is quite easy. You can import printo directly into a `.nim` file can be done via the `import` statement:
+### How to use printo                    |
+
+### Usage
+#### Installation
+Since `printo` has not yet been added to the `nimble` directory, you'll have to install it from the repository.
+
 ```
-from printo import printo
+$ nimble install https://bitbucket.org/pyfyclan/printo.git
 ```
+Once you install `printo` into your system, you can use it by first adding the `requires` statement it in your project's `.nimble` file.
+
+Then, using `printo` in your project is quite easy. You can import `printo` into any file within your project.  There is only one proc that you actually use: `printo`. Just import that proc and you are good to go.
 
 The `printo` proc only requires three arguments to work:
 
@@ -24,17 +31,10 @@ Currently, printo supports four modes of printing. They are detailed in the foll
 |  lblsl     | Print text letter by letter on the same line.                         |
 |  wbwsl     | Print text word by word on the same line.                             |
 |  lblnl     | Print text letter by letter on a new line per letter.                 |
-|  wbwnl     | Print text word by word on a new line per word.                       |
+|  wbwnl     | Print text word by word on a new line per word.                       |\
 
-### Usage
-#### Installation
-Since `printo` has not yet been added to the `nimble` directory, you'll have to install it from the repository.
 
-```
-$ nimble install https://bitbucket.org/pyfyclan/printo.git
-```
-
-Then, using `printo` in your project is quite easy. There is only one proc that you actually use: `printo`. Just import that proc and you are good to go. The actual usage is as follows:
+The actual usage is as follows:
 
 ```
 from printo import printo
