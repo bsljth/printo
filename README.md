@@ -11,6 +11,7 @@ from printo import printo
 ```
 
 The `printo` proc only requires three arguments to work:
+
 1. The text to be printed.
 2. The mode of printing (detailed below).
 3. The time (in milliseconds) gap between each element while printing. An element could be a word or a character.

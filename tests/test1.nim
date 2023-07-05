@@ -9,5 +9,6 @@ import unittest
 
 from printo import printo
 
+check printo("sasi sura soman", "wbwsl", 0)
 #[ check printo("test") ]#
 
