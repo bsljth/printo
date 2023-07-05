@@ -31,7 +31,7 @@ Currently, printo supports four modes of printing. They are detailed in the foll
 |  lblsl     | Print text letter by letter on the same line.                         |
 |  wbwsl     | Print text word by word on the same line.                             |
 |  lblnl     | Print text letter by letter on a new line per letter.                 |
-|  wbwnl     | Print text word by word on a new line per word.                       |\
+|  wbwnl     | Print text word by word on a new line per word.                       |
 
 
 The actual usage is as follows:
