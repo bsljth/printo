@@ -35,5 +35,6 @@ from printo import printo
 let txt: string = "Lorem ipsum whatever you got."
 let mode = "lblsl"
 let time = 100  # remember that this value is in milliseconds
-proc(txt, mode, time)
+
+printo(txt, mode, time)
 ```
