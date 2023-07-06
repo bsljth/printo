@@ -4,7 +4,7 @@
 
 However, since `printo` is a simple library that uses only basic Nim constructs, applications written in earlier versions of Nim should also be able to use it seamlessly.
 
-### How to use printo                    |
+### How to use printo
 
 ### Usage
 #### Installation
