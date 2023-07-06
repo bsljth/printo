@@ -5,8 +5,6 @@
 However, since `printo` is a simple library that uses only basic Nim constructs, applications written in earlier versions of Nim should also be able to use it seamlessly.
 
 ### How to use printo
-
-### Usage
 #### Installation
 Since `printo` has not yet been added to the `nimble` directory, you'll have to install it from the repository.
 
@@ -21,7 +19,7 @@ The `printo` proc only requires three arguments to work:
 2. The mode of printing (detailed below).
 3. The time (in milliseconds) gap between each element while printing. An element could be a word or a character.
 
-### Modes
+#### Modes
 Currently, printo supports four modes of printing. They are detailed in the following table:
 
 |    Mode    |    Description                                                        |
