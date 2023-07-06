@@ -13,8 +13,6 @@ Since `printo` has not yet been added to the `nimble` directory, you'll have to 
 ```
 $ nimble install https://bitbucket.org/pyfyclan/printo.git
 ```
-Once you install `printo` into your system, you can use it by first adding the `requires` statement it in your project's `.nimble` file.
-
 Then, using `printo` in your project is quite easy. You can import `printo` into any file within your project.  There is only one proc that you actually use: `printo`. Just import that proc and you are good to go.
 
 The `printo` proc only requires three arguments to work:
