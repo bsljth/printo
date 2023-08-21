@@ -32,7 +32,7 @@ Currently, printo supports four modes of printing. They are detailed in the foll
 
 The actual usage is as follows:
 
-```
+```nim
 from printo import printo
 
 let txt: string = "Lorem ipsum whatever you got."
