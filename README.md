@@ -11,7 +11,7 @@ Since `printo` has not yet been added to the `nimble` directory, you'll have to 
 ```
 $ nimble install https://bitbucket.org/pyfyclan/printo.git
 ```
-After it is installed, add the `printo` to your project's `.nimble` file using the requires keyword:
+After it is installed, add the `printo` to your project's `.nimble` file using the `requires` keyword:
 ```nim
 requires "printo >= 0.1.0"
 ```
